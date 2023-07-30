@@ -5,7 +5,7 @@ The targeted hardware here is the Kintex 7 FPGA by Xilinx.
 
 To run the project you can download Texmaker from https://www.xm1math.net/texmaker/download.html
 
-In the Texmaker application open '**main.tex**' file and click on _Quick Build_ to render a preview of the report.
+In the Texmaker application open '**Main.tex**' file and click on _Quick Build_ to render a preview of the report.
 
 You can clone this repo using the following command on terminal
 
@@ -13,4 +13,4 @@ You can clone this repo using the following command on terminal
 git clone https://github.com/Divam-Trivedi/LATEX_Report-Adaptive_Beamforming_On_FPGA.git
 ```
 
-Or download the zip file from teh dropdown menu in **Code**
+Or download the zip file from the dropdown menu in **Code**
