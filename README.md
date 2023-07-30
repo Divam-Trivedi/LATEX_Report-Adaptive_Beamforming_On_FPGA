@@ -1,36 +1,16 @@
-# RVCE-Latex-Project-Report-Template
-This is a Latex template is only for RV College of Engineering students for their report writing in latex. You can use this template for both UG and PG mini/major project report writing in Latex.
+# Report on Adaptive Beamforming on FPGA
+This is a latex report on the study of various techniques of adaptive bramforming and benchmarking its implementation on FPGA kit.
 
-The template, by defalut generates UG main project.
+The targeted hardware here is the Kintex 7 FPGA by Xilinx.
 
-## For PG project report, uncomment the following command in `Main.tex` file
+To run the project you can download Texmaker from https://www.xm1math.net/texmaker/download.html
 
-```
- %\pgProgram%
+In the Texmaker application open '**main.tex**' file and click on _Quick Build_ to render a preview of the report.
+
+You can clone this repo using the following command on terminal
+
+ ```
+git clone https://github.com/Divam-Trivedi/LATEX_Report-Adaptive_Beamforming_On_FPGA.git
 ```
 
-This will automatically takes in the values specified in the commands given below, for PG: 
-```
- \MastersIn[M.Tech]{Master of Technology} 
- \pgProgramName{VLSI Design & Embedded Systems}
-```
->> Note: `\MastersIn` command has 2 fields, where the field inside `[]` is used for specifying the shorter form of the type of master you are studying and is used inside the document for processing. So do specify this value for generating successful report.
-
-## For mini project generation, uncomment the following command in "Main.tex" file
-```
- %\MinorProject
-```
-## To add Appendix chapter
-Uncomment the following lines in "Main.tex" file
-```
-%\appendix
-%\input{./Appendix/Apndx}%Appendix Chapter 1
-```
-Add contents to ``Apndx.tex`` file under `Appendix` folder
-
-## Further Help
-For further help regarding the setup, follows the [Wiki link](https://github.com/rvce-latex/Project-Report-Template/wiki).
-
----
->Use the youtube play list to know how to use this template: https://youtube.com/playlist?list=PLXnaDu1KFWvaIh-jh9ME8mp5ca-PEtch4
----
+Or download the zip file from teh dropdown menu in **Code**
